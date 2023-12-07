@@ -1,36 +1,47 @@
 <!DOCTYPE html>
-<html class="bg-zinc-800 text-zinc-100 font-mono" lang="en">
-  <head>
+<html class="bg-zinc-800 text-zinc-100" lang="en">
+  
     <script src="https://cdn.tailwindcss.com"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/xml+svg" href="Logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/assets/logo.png" />
     <title>Toby Cm</title>
   </head>
+  <style>
+    * {
+      font-family: "Nunito Sans", sans-serif;
+    }
+  </style>
   <body>
     <div
-      class="flex items-center w-[90%] ml-auto mr-auto bg-zinc-700 m-5 p-3 rounded-md shadow-lg shadow-zinc-900 select-none"
+      class="flex items-center w-4/5 ml-auto mr-auto bg-transparent m-5 p-3 select-none"
     >
       <a
-        class="text-4xl bg-gradient-to-r from-cyan-400 to-yellow-400 bg-clip-text text-transparent font-bold"
+        class="text-6xl bg-gradient-to-r from-cyan-400 to-yellow-400 bg-clip-text text-transparent font-black"
         href="#"
         >Toby Cm</a
       >
-      <a class="ml-auto mr-3" href="https://github.com/tobycm">
-        <img class="h-9" src="github-mark-white.svg" alt="" />
+      <a class="ml-auto mr-3" href="https://github.com/tobycm" target="_blank">
+        <img class="h-9" src="/assets/github.png">   
       </a>
-      <a href="https://www.youtube.com/@toby_cm">
-        <img class="h-9 ml-3" src="yt_icon_mono_dark.png" alt="" />
-      </a>
+      <a href="https://www.youtube.com/@toby_cm" target="_blank">
+        <img class="h-9 ml-3" src="/assets/youtube.png">
+         </a>
     </div>
     <div
-      class="flex flex-col w-[90%] ml-auto mr-auto items-start bg-zinc-700 mt-5 m-3 p-3 rounded-md shadow-lg shadow-zinc-900 select-none"
+      class="flex flex-col w-4/5 ml-auto mr-auto items-start bg-zinc-700 mt-5 m-5 p-5 rounded-md shadow-lg shadow-zinc-900 select-none"
       id="about"
     >
       <div class="justify-start">
-        <h1 class="font-bold text-2xl">About</h1>
+        <h1 class="font-bold text-4xl mb-6">About</h1>
 
-        <p class="justify-start">
+        <p class="text-lg font-lg">
           Toby Cm is a highly experienced senior developer known for his
           proficiency in TypeScript, JavaScript, and Python. As the founder of
           the Emochoice website, he has demonstrated his entrepreneurial spirit
@@ -63,8 +74,16 @@
           testament to his passion for technology and his commitment to
           excellence. His expertise in TypeScript, JavaScript, and Python,
           combined with his leadership and mentorship, make him a valuable asset
-          to any team or project. GitHub
+          to any team or project.
         </p>
+      </div>
+    </div>
+    <div
+      class="flex flex-col w-4/5 ml-auto mr-auto items-start bg-zinc-700 mt-32 m-5 p-5 rounded-md shadow-lg shadow-zinc-900 select-none"
+      id="projects"
+    >
+      <div class="justify-start">
+        <h1 class="font-bold text-4xl mb-6xl">Projects</h1>
       </div>
     </div>
   </body>
