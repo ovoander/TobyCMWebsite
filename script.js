@@ -1,14 +1,12 @@
-window.onscroll = function () {
-  myFunction();
+const header = document.getElementsByClassName("header");
+const sticky = header.offsetTop;
+
+const stickyHeader = () => {
+    if (window.scrollY > sticky) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
+    }
 };
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.scrollY > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
+window.onscroll = stickyHeader; 
