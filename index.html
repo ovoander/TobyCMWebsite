@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html class="bg-zinc-800 text-zinc-100 overflow-x-hidden" lang="en">
-  
-    <script src="https://cdn.tailwindcss.com"></script>
+<!doctype html>
+<html class="overflow-x-hidden bg-zinc-800 text-zinc-100" lang="en">
+  <head>
+    <link href="output.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,28 +19,28 @@
     }
   </style>
   <body>
-    <div  
-      class="flex items-center w-full border-zinc-600 border-b sticky top-0 backdrop-blur bg-transparent p-3 select-none"
+    <div
+      class="sticky top-0 flex w-full select-none items-center border-b border-zinc-600 bg-transparent p-3 backdrop-blur"
       id="myHeader"
     >
       <a
-        class="text-6xl bg-gradient-to-r from-cyan-400 to-amber-400 bg-clip-text text-transparent font-black"
+        class="bg-gradient-to-r from-cyan-400 to-amber-400 bg-clip-text text-6xl font-black text-transparent"
         href="#"
         >Toby Cm</a
       >
       <a class="ml-auto mr-3" href="https://github.com/tobycm" target="_blank">
-        <img class="h-9" src="github.png">   
+        <img class="h-9" src="github.png" />
       </a>
       <a href="https://www.youtube.com/@toby_cm" target="_blank">
-        <img class="h-9 ml-3" src="youtube.png">
-         </a>
+        <img class="ml-3 h-9" src="youtube.png" />
+      </a>
     </div>
     <div
-      class="flex flex-col w-4/5 ml-auto mr-auto items-start bg-zinc-700 mt-5 m-5 p-5 rounded-md shadow-lg shadow-zinc-900 select-none"
+      class="m-5 ml-auto mr-auto mt-5 flex w-4/5 select-none flex-col items-start rounded-md bg-zinc-700 p-5 shadow-lg shadow-zinc-900"
       id="about"
     >
       <div class="justify-start">
-        <h1 class="font-bold text-4xl mb-6">About</h1>
+        <h1 class="mb-6 text-4xl font-bold">About</h1>
 
         <p class="text-lg font-semibold">
           Toby Cm is a highly experienced senior developer known for his
@@ -80,16 +80,16 @@
       </div>
     </div>
     <div
-      class="flex flex-col w-4/5 ml-auto mr-auto items-start bg-zinc-700 mt-32 m-5 p-5 rounded-md shadow-lg shadow-zinc-900 select-none"
+      class="m-5 ml-auto mr-auto mt-32 flex w-4/5 select-none flex-col items-start rounded-md bg-zinc-700 p-5 shadow-lg shadow-zinc-900"
       id="projects"
     >
-    <h1 class="font-bold text-4xl mb-6">Projects</h1>
-      <div class="justify-start grid grid-rows-2 gap-6 grid-cols-2">
-        <a href="https://v2.emochoice.ca/">
-          <img class=" rounded-xl" src="EMOCHOICE.png">
+      <h1 class="mb-6 text-4xl font-bold">Projects</h1>
+      <div class="grid grid-cols-2 grid-rows-2 justify-start gap-6">
+        <a href="https://v2.emochoice.ca/" target="_blank">
+          <img class="rounded-xl" src="EMOCHOICE.png" />
         </a>
-        <a href="https://vsus.app/">
-          <img class="rounded-xl" src="vsus.png">
+        <a href="https://vsus.app/" target="_blank">
+          <img class="rounded-xl" src="vsus.png" />
         </a>
         <p class="text-lg font-semibold"></p>
       </div>
