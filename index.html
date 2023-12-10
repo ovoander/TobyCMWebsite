@@ -11,10 +11,26 @@
     </head>
     <body>
         <div
-            class="sticky top-0 z-10 flex h-16 select-none items-center border-b border-zinc-600 p-3 backdrop-blur"
+            class="sticky top-0 z-10 flex select-none items-center border-b border-zinc-600 p-3 backdrop-blur"
         >
-            <div class="mx-64">
-                <a class="text-4xl font-black" href="#">Toby Cm</a>
+            <div class="mx-auto flex w-4/5 items-center">
+                <a class="text-5xl font-black" href="#">Toby Cm</a>
+                <a
+                    class="ml-auto"
+                    href="https://github.com/tobycm"
+                    target="_blank"
+                    title="GitHub"
+                >
+                    <img class="h-9" src="src/icons/github.svg" />
+                </a>
+                <a
+                    class="ml-6"
+                    href="https://www.youtube.com/@toby_cm"
+                    target="_blank"
+                    title="YouTube"
+                >
+                    <img class="h-9" src="src/icons/youtube.svg" />
+                </a>
             </div>
         </div>
         <div class="flex h-screen select-none items-center justify-center">
@@ -30,17 +46,53 @@
             </div>
         </div>
         <a
-            class="absolute bottom-0 flex items-center justify-center"
+            class="absolute bottom-0 right-1/2 flex translate-x-1/2 items-center justify-center"
             href="#about"
         >
-            <img class="h-24" src="src/icons/chevron-down.svg" />
+            <img class="h-24 animate-bounce" src="src/icons/chevron-down.svg" />
         </a>
-        <div class="m-32 flex items-center justify-center" id="about"></div>
+        <div class="m-24 flex items-center justify-center" id="about"></div>
         <div
-            class="m-3 flex flex-col items-center justify-start rounded bg-zinc-700 p-3 shadow-lg shadow-zinc-900"
+            class="m-3 mx-auto flex w-4/5 select-none items-center rounded bg-zinc-700 p-6 shadow-lg shadow-zinc-900"
         >
-            <h1 class="mb-2 text-3xl font-bold">About</h1>
-            <p>Toby</p>
+            <div class="flex flex-col">
+                <h1 class="mb-2 text-4xl font-bold">About</h1>
+                <p class="text-xl">
+                    Hey there! My name is Toby Cm, I am very passionate about
+                    coding. I mainly code in Python, Typescript, and Javascript,
+                    but I will dabble around in HTML and CSS when needed. I
+                    cofounded
+                    <a
+                        class="text-cyan-400 underline"
+                        href="https://emochoice.ca/"
+                        target="_blank"
+                        title="Emochoice"
+                        >Emochoice,</a
+                    >
+                    and founded
+                    <a
+                        class="text-cyan-400 underline"
+                        href="https://vsus.app/"
+                        target="_blank"
+                        title="vSuS"
+                        >vSuS.</a
+                    >
+                    I have developed both of these projects along with others,
+                    and are a demonstration of my development skills.
+                </p>
+            </div>
+        </div>
+
+        <div class="m-24 flex items-center justify-center" id="projects">
+            <div class="w-screen border-2 border-dashed border-zinc-100"></div>
+        </div>
+        <div
+            class="m-3 mx-auto flex w-4/5 select-none items-center rounded bg-zinc-700 p-6 shadow-lg shadow-zinc-900"
+        >
+            <div class="flex flex-col">
+                <h1 class="mb-2 text-4xl font-bold">Projects</h1>
+            </div>
+            <div class="grid grid-cols-2 grid-rows-2"></div>
         </div>
     </body>
 </html>
