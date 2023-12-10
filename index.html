@@ -1,5 +1,8 @@
 <!doctype html>
-<html class="bg-slate-800 text-slate-100" lang="en">
+<html
+    class="overflow-x-hidden scroll-smooth bg-zinc-800 text-zinc-100"
+    lang="en"
+>
     <head>
         <link href="/dist/output.css" rel="stylesheet" />
         <meta charset="UTF-8" />
@@ -7,8 +10,37 @@
         <title>Toby Cm</title>
     </head>
     <body>
-        <div class="sticky top-0 z-10 flex items-center p-3 backdrop-blur">
-            <a class="text-4xl font-black" href="index.html">Toby Cm</a>
+        <div
+            class="sticky top-0 z-10 flex h-16 select-none items-center border-b border-zinc-600 p-3 backdrop-blur"
+        >
+            <div class="mx-64">
+                <a class="text-4xl font-black" href="#">Toby Cm</a>
+            </div>
+        </div>
+        <div class="flex h-screen select-none items-center justify-center">
+            <div class="mb-32 flex items-center justify-center">
+                <span class="m-2 text-6xl font-bold">Hey, I'm</span>
+                <a
+                    class="m-2 text-6xl font-bold text-cyan-400 underline"
+                    href="https://github.com/tobycm"
+                    target="_blank"
+                    title="GitHub"
+                    >Toby.</a
+                >
+            </div>
+        </div>
+        <a
+            class="absolute bottom-0 flex items-center justify-center"
+            href="#about"
+        >
+            <img class="h-24" src="src/icons/chevron-down.svg" />
+        </a>
+        <div class="m-32 flex items-center justify-center" id="about"></div>
+        <div
+            class="m-3 flex flex-col items-center justify-start rounded bg-zinc-700 p-3 shadow-lg shadow-zinc-900"
+        >
+            <h1 class="mb-2 text-3xl font-bold">About</h1>
+            <p>Toby</p>
         </div>
     </body>
 </html>
